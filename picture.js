@@ -27,11 +27,11 @@ class Picture {
 
   update() {
 
-    if (this.x + this.radius > windowWidth || this.x - this.radius < 0) {
+    if (this.x + this.radius > 960 || this.x - this.radius < 0) {
       this.dx = -this.dx;
     }
 
-    if (this.y + this.radius > windowHeight || this.y - this.radius < 0) {
+    if (this.y + this.radius > 960 || this.y - this.radius < 0) {
       this.dy = -this.dy;
     }
 
